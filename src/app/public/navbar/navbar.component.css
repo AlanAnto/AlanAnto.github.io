@@ -1,0 +1,11 @@
+.nav{
+    background-color: darkgray;
+    height: 50px;
+    align-items: center;
+    font-weight: 500;
+    font-size: large;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
