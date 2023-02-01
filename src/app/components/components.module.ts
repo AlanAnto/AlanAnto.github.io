@@ -5,6 +5,8 @@ import { ComponentsRoutingModule } from './components-routing.module';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
+import { AppRoutingModule } from '../app-routing.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { ServicesComponent } from './services/services.component';
   ],
   imports: [
     CommonModule,
-    ComponentsRoutingModule
+    ComponentsRoutingModule,
+    AppRoutingModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }
